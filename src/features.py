@@ -2,8 +2,8 @@ import os
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-class TextRepresentes:
-    def __init(self, method='tfidf',**kwargs):
+class TextRepresenter:
+    def __init__(self, method='tfidf',**kwargs):
         """
         Inicializa o representador de texto.
         **kwargs: Argumentos extras para o Vectorizer(ex: max_features,ngram_renge).
@@ -14,9 +14,8 @@ class TextRepresentes:
 
         if method == 'tfidf':
             self.vectorizer = TfidfVectorizer(**kwargs)
-        #...
         else:
-            raise ValueError(f"Método de representação {method} não suportado").
+            raise ValueError(f"Método de representação {method} não suportado.")
     
     def fit_transform(self, texts):
         """
@@ -64,7 +63,7 @@ class TextRepresentes:
         """
 
         if not os.path.exists(filepath):
-            raise FileNotFoundError(f"Arquivo {filepath} não encontrado").
+            raise FileNotFoundError(f"Arquivo {filepath} não encontrado.")
         
         try:
             self.vectorizer = joblib.load(filepath)

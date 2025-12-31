@@ -21,7 +21,7 @@ class ModelTrainer:
             self.best_model = self.base_model
             return
         
-        search = GridSearch(
+        search = GridSearchCV(
             estimator = self.base_model,
             param_grid = self.param_grid,
             cv=self.cv,
@@ -39,7 +39,7 @@ class ModelTrainer:
         Treina o modelo final (usando os melhores parâmetros já encontrados).
         """
 
-        if self.best_model in None:
+        if self.best_model is None:
             self.best_model = clone(self.base_model)
         
         print("Treinando modelo final...")
@@ -50,18 +50,6 @@ class ModelTrainer:
         if self.best_model is None:
             raise Exception("O modelo ainda não foi treinado. Execute .train() primeiro.")
         return self.best_model.predict(X)
-
-    def evaluate(y_true, y_pred):
-        acc = accuracy_score(y_true, y_pred)
-        f1 = f1_score(y_true, y_pred, average='weighted')
-        
-        print("-" * 30)
-        print(f"Relatório de Avaliação:")
-        print(f"Acurácia: {acc:.4f}")
-        print(f"F1-Score: {f1:.4f}")
-        print("-" * 30)
-        
-        return {'accuracy': acc, 'f1': f1}
 
     def save(self, filepath):
         """Salva o modelo treinado em disco."""

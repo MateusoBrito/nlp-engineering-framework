@@ -31,7 +31,15 @@ class TextPreprocessor:
 
     def _download_nltk_resources(self):
         """Método interno para garantir downloads."""
-        resources = ['stopwords', 'wordnet', 'averaged_perceptron_tagger', 'omw-1.4', 'punkt']
+        resources = [
+            'stopwords', 
+            'wordnet', 
+            'averaged_perceptron_tagger',
+            'averaged_perceptron_tagger_eng',  
+            'omw-1.4', 
+            'punkt'
+        ]
+        
         for resource in resources:
             try:
                 nltk.data.find(f'corpora/{resource}')
@@ -42,6 +50,7 @@ class TextPreprocessor:
                     try:
                         nltk.data.find(f'taggers/{resource}')
                     except LookupError:
+                        # print(f"Baixando {resource}...") 
                         nltk.download(resource, quiet=True)
 
     def _load_custom_stopwords(self, filepath):
