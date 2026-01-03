@@ -1,0 +1,37 @@
+=== RELATÓRIO ESTATÍSTICO: Representações para DT ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.016667 (para 3 comparações)
+
+--- Métrica: ACCURACY ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.9470
+   Média WORD2VEC: 0.8923
+   P-Value: 3.2444e-05 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.9470
+   Média FASTTEXT: 0.8530
+   P-Value: 1.0758e-07 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.8923
+   Média FASTTEXT: 0.8530
+   P-Value: 4.3723e-03 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.9447
+   Média WORD2VEC: 0.8929
+   P-Value: 4.0936e-05 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.9447
+   Média FASTTEXT: 0.8549
+   P-Value: 9.4033e-08 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.8929
+   Média FASTTEXT: 0.8549
+   P-Value: 3.5525e-03 -> SIGNIFICATIVO
+
+Fim do relatório.

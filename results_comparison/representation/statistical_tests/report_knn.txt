@@ -1,0 +1,37 @@
+=== RELATÓRIO ESTATÍSTICO: Representações para KNN ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.016667 (para 3 comparações)
+
+--- Métrica: ACCURACY ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.9038
+   Média WORD2VEC: 0.9298
+   P-Value: 1.7000e-04 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.9038
+   Média FASTTEXT: 0.8446
+   P-Value: 8.8865e-06 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.9298
+   Média FASTTEXT: 0.8446
+   P-Value: 1.2326e-07 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.8802
+   Média WORD2VEC: 0.9256
+   P-Value: 4.4926e-05 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.8802
+   Média FASTTEXT: 0.8398
+   P-Value: 3.7861e-05 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.9256
+   Média FASTTEXT: 0.8398
+   P-Value: 2.9059e-08 -> SIGNIFICATIVO
+
+Fim do relatório.

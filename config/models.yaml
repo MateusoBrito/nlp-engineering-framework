@@ -1,0 +1,13 @@
+knn:
+  n_neighbors: [3, 5, 7, 11]
+  metric: ['euclidean', 'manhattan']
+
+svm:
+  C: [0.1, 1, 10]
+  kernel: ['linear', 'rbf']
+
+dt:
+  criterion: ['gini', 'entropy']
+  max_depth: [null, 5, 10, 20]
+  min_samples_split: [2, 5, 10]
+  min_samples_leaf: [1, 2, 4]

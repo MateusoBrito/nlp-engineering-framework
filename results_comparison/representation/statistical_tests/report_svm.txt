@@ -1,0 +1,37 @@
+=== RELATÓRIO ESTATÍSTICO: Representações para SVM ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.016667 (para 3 comparações)
+
+--- Métrica: ACCURACY ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.9801
+   Média WORD2VEC: 0.8993
+   P-Value: 3.0662e-06 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.9801
+   Média FASTTEXT: 0.8614
+   P-Value: 2.2502e-09 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.8993
+   Média FASTTEXT: 0.8614
+   P-Value: 1.7287e-06 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.9798
+   Média WORD2VEC: 0.8771
+   P-Value: 8.5110e-06 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.9798
+   Média FASTTEXT: 0.7974
+   P-Value: 1.3193e-09 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.8771
+   Média FASTTEXT: 0.7974
+   P-Value: 7.8198e-08 -> SIGNIFICATIVO
+
+Fim do relatório.

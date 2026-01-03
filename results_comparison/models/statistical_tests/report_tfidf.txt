@@ -1,0 +1,37 @@
+=== RELATÓRIO ESTATÍSTICO: Modelos em TFIDF ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.016667 (para 3 comparações)
+
+--- Métrica: ACCURACY ---
+KNN vs SVM:
+   Média KNN: 0.9038
+   Média SVM: 0.9801
+   P-Value: 6.2373e-07 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.9038
+   Média DT: 0.9470
+   P-Value: 1.0321e-05 -> SIGNIFICATIVO
+
+SVM vs DT:
+   Média SVM: 0.9801
+   Média DT: 0.9470
+   P-Value: 1.5532e-05 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+KNN vs SVM:
+   Média KNN: 0.8802
+   Média SVM: 0.9798
+   P-Value: 1.1599e-06 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.8802
+   Média DT: 0.9447
+   P-Value: 8.2413e-06 -> SIGNIFICATIVO
+
+SVM vs DT:
+   Média SVM: 0.9798
+   Média DT: 0.9447
+   P-Value: 1.7603e-05 -> SIGNIFICATIVO
+
+Fim do relatório.

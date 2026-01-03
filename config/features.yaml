@@ -1,0 +1,19 @@
+tfidf:
+  max_features: 5000
+  ngram_range: [1, 2]
+  stop_words: "english"
+
+word2vec:
+  vector_size: 100
+  window: 5
+  min_count: 1
+  workers: 4
+  sg: 1
+
+fasttext:
+  vector_size: 100
+  window: 5
+  min_count: 1
+  workers: 4
+  sg: 1
+  epochs: 25
