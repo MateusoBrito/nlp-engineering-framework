@@ -6,6 +6,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from src.utils import load_config
 
 try:
+    import torch
+    from transformers import pipeline
+    TRANSFORMERS_AVAILABLE = True
+except ImportError:
+    TRANSFORMERS_AVAILABLE = False
+
+try:
     from gensim.models import Word2Vec, FastText
     GENSIM_AVAILABLE = True
 except ImportError:
@@ -27,18 +34,14 @@ class TextRepresenter:
             self.params['ngram_range'] = tuple(self.params['ngram_range'])
 
         self.vector_size = self.params.get('vector_size', 100)
-
         self.vectorizer = None
 
         if self.method in ['word2vec', 'fasttext']:
             if not GENSIM_AVAILABLE:
                 raise ImportError("Gensim não instalado. Instale com: pip install gensim")
+        if 'bert' in self.method and not TRANSFORMERS_AVAILABLE:
+            raise ImportError("Transformers/Torch não instalado. Instale com: pip install transformers torch")
 
-
-        valid_methods = ['tfidf', 'word2vec', 'fasttext']
-        if self.method not in valid_methods:
-            raise ValueError(f"Método de representação '{method}' não suportado.")
-    
     def fit_transform(self, texts):
         """
         Aprende o vocabulário e transforma os dados.
@@ -59,6 +62,13 @@ class TextRepresenter:
             tokenized_data = [text.split() for text in texts]
             self.vectorizer = FastText(sentences=tokenized_data, **self.params)
             return self._get_mean_vectors(tokenized_data)
+        
+        elif 'static' in self.method:
+            self.vectorizer = "bert_model"
+            return self.transform(texts)
+        
+        else:
+            raise ValueError(f"Método de representação '{self.method}' não suportado.")
 
     
     def transform(self, texts):
@@ -80,6 +90,37 @@ class TextRepresenter:
             
             tokenized_data = [text.split() for text in texts]
             return self._get_mean_vectors(tokenized_data)
+        
+        elif 'static' in self.method:
+            return self._get_transformer_embeddings(texts)
+        
+        else:
+            raise ValueError(f"Método de representação '{self.method}' não suportado.")
+
+    def _get_transformer_embeddings(self, texts):
+        """
+        Extrai embeddings usando a biblioteca Transformers.
+        """
+        device = 0 if torch.cuda.is_available() else -1
+        device = -1
+        model_name = self.params.get('model_name', 'bert-base-uncased')
+        
+        # Inicializa o pipeline de extração de features
+        extractor = pipeline('feature-extraction', model=model_name, device=device)
+        
+        print(f"Extraindo embeddings com {model_name} na {'GPU' if device == 0 else 'CPU'}...")
+        
+        # Converte para lista se for Series/Array
+        texts = list(texts)
+        
+        # O pipeline retorna uma lista de listas de tensores: [camada][token][dimensão]
+        # Pegamos o primeiro token [0] (geralmente [CLS]) da última camada.
+        raw_outputs = extractor(texts)
+        
+        # Extrai o vetor do token [CLS] para cada texto
+        embeddings = np.array([out[0][0] for out in raw_outputs])
+        
+        return embeddings
     
     def _get_mean_vectors(self, tokenized_data):
         """
@@ -103,7 +144,7 @@ class TextRepresenter:
         
         return np.array(matrix)
     
-    def save(self,filepath):
+    def save_embeddings(self,filepath):
         """
         Salva o vetorizador treinado em um arquivo .pkl ou .joblib
         """
@@ -111,24 +152,28 @@ class TextRepresenter:
             print("Nada a salvar.")
             return
         
-        os.makedirs(os.path.dirname(filepath), exists_ok=True)
-
         try:
-            joblib.dump(self.vectorizer, filepath)
-            print(f"Vetorizador salve em: {filepath}")
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            
+            if hasattr(embeddings, "toarray"):
+                embeddings = embeddings.toarray()
+            
+            np.save(filepath, embeddings)
+            print(f"Embeddings salvos com sucesso em: {filepath}")
         except Exception as e:
-            print(f"Erro ao salvar vetorizador: {e}")
-    
-    def load(self, filepath):
+            print(f"Erro ao salvar embeddings: {e}")
+
+    def load_embeddings(self, filepath):
+        """
+        Carrega embeddings de um arquivo .npy.
+        """
         if not os.path.exists(filepath):
-            raise FileNotFoundError(f"Arquivo {filepath} não encontrado.")
+            raise FileNotFoundError(f"Arquivo de embeddings não encontrado: {filepath}")
         
         try:
-            self.vectorizer = joblib.load(filepath)
-            
-            if hasattr(self.vectorizer, 'vector_size'):
-                self.vector_size = self.vectorizer.vector_size
-                
-            print(f"Vetorizador carregado de: {filepath}")
+            embeddings = np.load(filepath)
+            print(f"Embeddings carregados de: {filepath} (Shape: {embeddings.shape})")
+            return embeddings
         except Exception as e:
-            print(f"Erro ao carregar vetorizador: {e}")
+            print(f"Erro ao carregar embeddings: {e}")
+            return None

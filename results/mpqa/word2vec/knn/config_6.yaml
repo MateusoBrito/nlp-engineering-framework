@@ -1,0 +1,16 @@
+preprocessing:
+  input_path: "data/MPQA.csv"
+  output_path: "data/processed/mpqa.csv"
+  text_col: "texts"
+  output_col: "clean_text"
+
+embeddings:
+  representation: "word2vec"
+  output_dir: "data/embeddings/mpqa_embeddings.csv"
+
+training:
+  label_col: "scores"
+  model: knn
+  validation: "stratified_kfold"
+  n_splits: 10
+  output_dir: "results/mpqa/word2vec/knn/"

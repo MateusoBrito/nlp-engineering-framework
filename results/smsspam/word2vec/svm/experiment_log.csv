@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+SMSSpamCollection.csv,svm,word2vec,1,"{'C': 10, 'kernel': 'rbf'}",0.920704845814978,0.763869625520111,0.9088362345494204
+SMSSpamCollection.csv,svm,word2vec,2,"{'C': 10, 'kernel': 'rbf'}",0.9162995594713657,0.7656615050258082,0.9022289719682092
+SMSSpamCollection.csv,svm,word2vec,3,"{'C': 10, 'kernel': 'rbf'}",0.947136563876652,0.8425797503467407,0.9426151881564396
+SMSSpamCollection.csv,svm,word2vec,4,"{'C': 10, 'kernel': 'rbf'}",0.8810572687224669,0.6380440559853541,0.8483942024943604
+SMSSpamCollection.csv,svm,word2vec,5,"{'C': 10, 'kernel': 'rbf'}",0.8766519823788547,0.6476718403547672,0.8441192846049406
+SMSSpamCollection.csv,svm,word2vec,6,"{'C': 10, 'kernel': 'rbf'}",0.9295154185022027,0.7586390217969166,0.9169904470159513
+SMSSpamCollection.csv,svm,word2vec,7,"{'C': 10, 'kernel': 'rbf'}",0.8938053097345132,0.7095737845363033,0.8733351402680455
+SMSSpamCollection.csv,svm,word2vec,8,"{'C': 10, 'kernel': 'rbf'}",0.8628318584070797,0.6687000520168345,0.8392667258394776
+SMSSpamCollection.csv,svm,word2vec,9,"{'C': 10, 'kernel': 'rbf'}",0.8628318584070797,0.6016375732074828,0.8185858319525032
+SMSSpamCollection.csv,svm,word2vec,10,"{'C': 10, 'kernel': 'rbf'}",0.9026548672566371,0.6839562674802949,0.8770624779211077

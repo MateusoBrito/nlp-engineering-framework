@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+SMSSpamCollection.csv,knn,fasttext,1,"{'metric': 'manhattan', 'n_neighbors': 11}",0.8766519823788547,0.714824120603015,0.8766519823788547
+SMSSpamCollection.csv,knn,fasttext,2,"{'metric': 'manhattan', 'n_neighbors': 11}",0.8722466960352423,0.6558628260755921,0.8542147068719381
+SMSSpamCollection.csv,knn,fasttext,3,"{'metric': 'manhattan', 'n_neighbors': 11}",0.8458149779735683,0.6379585326953747,0.8518573164990971
+SMSSpamCollection.csv,knn,fasttext,4,"{'metric': 'manhattan', 'n_neighbors': 11}",0.8193832599118943,0.6319161558236108,0.8182260555656703
+SMSSpamCollection.csv,knn,fasttext,5,"{'metric': 'manhattan', 'n_neighbors': 11}",0.8325991189427313,0.6244339951236504,0.8178181634052818
+SMSSpamCollection.csv,knn,fasttext,6,"{'metric': 'euclidean', 'n_neighbors': 11}",0.8458149779735683,0.6857820842396678,0.860632838504485
+SMSSpamCollection.csv,knn,fasttext,7,"{'metric': 'manhattan', 'n_neighbors': 11}",0.8539823008849557,0.635323456065718,0.8352401141861641
+SMSSpamCollection.csv,knn,fasttext,8,"{'metric': 'euclidean', 'n_neighbors': 11}",0.8008849557522124,0.6403183023872678,0.8019483110725101
+SMSSpamCollection.csv,knn,fasttext,9,"{'metric': 'manhattan', 'n_neighbors': 11}",0.827433628318584,0.6664774662277216,0.8223076358953082
+SMSSpamCollection.csv,knn,fasttext,10,"{'metric': 'euclidean', 'n_neighbors': 11}",0.8716814159292036,0.6681014837696866,0.859029555738499

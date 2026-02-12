@@ -1,0 +1,1247 @@
+ Device set to use cuda:0
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:283: UserWarning: 
+    Found GPU0 NVIDIA GeForce GTX 1070 which is of cuda capability 6.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  warnings.warn(
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:304: UserWarning: 
+    Please install PyTorch with a following CUDA
+    configurations:  12.6 following instructions at
+    https://pytorch.org/get-started/locally/
+    
+  warnings.warn(matched_cuda_warn.format(matched_arches))
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:283: UserWarning: 
+    Found GPU1 NVIDIA GeForce GTX 1070 which is of cuda capability 6.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  warnings.warn(
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:326: UserWarning: 
+NVIDIA GeForce GTX 1070 with CUDA capability sm_61 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.
+If you want to use the NVIDIA GeForce GTX 1070 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: DT
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 2 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 3 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 4 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 5 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 6 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 7 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 8 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 9 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 10 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Device set to use cuda:0
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:283: UserWarning: 
+    Found GPU0 NVIDIA GeForce GTX 1070 which is of cuda capability 6.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  warnings.warn(
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:304: UserWarning: 
+    Please install PyTorch with a following CUDA
+    configurations:  12.6 following instructions at
+    https://pytorch.org/get-started/locally/
+    
+  warnings.warn(matched_cuda_warn.format(matched_arches))
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:283: UserWarning: 
+    Found GPU1 NVIDIA GeForce GTX 1070 which is of cuda capability 6.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  warnings.warn(
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:326: UserWarning: 
+NVIDIA GeForce GTX 1070 with CUDA capability sm_61 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.
+If you want to use the NVIDIA GeForce GTX 1070 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: SVM
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 2 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 3 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 4 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 5 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 6 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 7 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 8 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 9 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 10 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Device set to use cuda:0
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:283: UserWarning: 
+    Found GPU0 NVIDIA GeForce GTX 1070 which is of cuda capability 6.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  warnings.warn(
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:304: UserWarning: 
+    Please install PyTorch with a following CUDA
+    configurations:  12.6 following instructions at
+    https://pytorch.org/get-started/locally/
+    
+  warnings.warn(matched_cuda_warn.format(matched_arches))
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:283: UserWarning: 
+    Found GPU1 NVIDIA GeForce GTX 1070 which is of cuda capability 6.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (7.0) - (12.0)
+    
+  warnings.warn(
+/home/mateus/treinamento/venv/lib/python3.12/site-packages/torch/cuda/__init__.py:326: UserWarning: 
+NVIDIA GeForce GTX 1070 with CUDA capability sm_61 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.
+If you want to use the NVIDIA GeForce GTX 1070 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+Device set to use cuda:0
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: KNN
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 2 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 3 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 4 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 5 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 6 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 7 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 8 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 9 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+--- Fold 10 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na GPU...
+Erro na vetorização: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: KNN
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7191 | F1-Macro: 0.6810
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 3}
+Treinando modelo final...
+Acurácia: 0.7747 | F1-Macro: 0.7084
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 3}
+Treinando modelo final...
+Acurácia: 0.7917 | F1-Macro: 0.7335
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 3}
+Treinando modelo final...
+Acurácia: 0.8058 | F1-Macro: 0.7602
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 3}
+Treinando modelo final...
+Acurácia: 0.7766 | F1-Macro: 0.7135
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 3}
+Treinando modelo final...
+Acurácia: 0.7906 | F1-Macro: 0.7319
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 3}
+Treinando modelo final...
+Acurácia: 0.7896 | F1-Macro: 0.7285
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'manhattan', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7472 | F1-Macro: 0.6303
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7858 | F1-Macro: 0.7081
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 3}
+Treinando modelo final...
+Acurácia: 0.7783 | F1-Macro: 0.7062
+Resultados salvos em: results/mpqa/tfidf/knn/experiment_log.csv
+
+=== Média Final: 0.7760 (+/- 0.0239) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: SVM
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8285 | F1-Macro: 0.7817
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8172 | F1-Macro: 0.7663
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8398 | F1-Macro: 0.8037
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8322 | F1-Macro: 0.7919
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8247 | F1-Macro: 0.7826
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8302 | F1-Macro: 0.7868
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8321 | F1-Macro: 0.7864
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8283 | F1-Macro: 0.7867
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8160 | F1-Macro: 0.7609
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'linear'}
+Treinando modelo final...
+Acurácia: 0.8368 | F1-Macro: 0.7966
+Resultados salvos em: results/mpqa/tfidf/svm/experiment_log.csv
+
+=== Média Final: 0.8286 (+/- 0.0072) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: DT
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8153 | F1-Macro: 0.7727
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8106 | F1-Macro: 0.7648
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8181 | F1-Macro: 0.7843
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8190 | F1-Macro: 0.7829
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8115 | F1-Macro: 0.7734
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8123 | F1-Macro: 0.7703
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8170 | F1-Macro: 0.7767
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.7962 | F1-Macro: 0.7574
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.7934 | F1-Macro: 0.7442
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação TFIDF (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': None}
+Treinando modelo final...
+Acurácia: 0.8189 | F1-Macro: 0.7851
+Resultados salvos em: results/mpqa/tfidf/dt/experiment_log.csv
+
+=== Média Final: 0.8112 (+/- 0.0087) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: DT
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7606 | F1-Macro: 0.6540
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7606 | F1-Macro: 0.6640
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 20}
+Treinando modelo final...
+Acurácia: 0.7926 | F1-Macro: 0.7356
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7474 | F1-Macro: 0.6360
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7465 | F1-Macro: 0.6330
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7443 | F1-Macro: 0.6324
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7528 | F1-Macro: 0.6513
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7500 | F1-Macro: 0.6468
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7538 | F1-Macro: 0.6653
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7519 | F1-Macro: 0.6495
+Resultados salvos em: results/mpqa/word2vec/dt/experiment_log.csv
+
+=== Média Final: 0.7561 (+/- 0.0132) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: SVM
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8087 | F1-Macro: 0.7438
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8209 | F1-Macro: 0.7827
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8106 | F1-Macro: 0.7463
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8247 | F1-Macro: 0.7897
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8077 | F1-Macro: 0.7422
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8019 | F1-Macro: 0.7267
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8047 | F1-Macro: 0.7373
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8160 | F1-Macro: 0.7812
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8066 | F1-Macro: 0.7328
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.8179 | F1-Macro: 0.7581
+Resultados salvos em: results/mpqa/word2vec/svm/experiment_log.csv
+
+=== Média Final: 0.8120 (+/- 0.0071) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: KNN
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7710 | F1-Macro: 0.6901
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7653 | F1-Macro: 0.6873
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'manhattan', 'n_neighbors': 7}
+Treinando modelo final...
+Acurácia: 0.7776 | F1-Macro: 0.7002
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7747 | F1-Macro: 0.7006
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7776 | F1-Macro: 0.7047
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'manhattan', 'n_neighbors': 7}
+Treinando modelo final...
+Acurácia: 0.7868 | F1-Macro: 0.7090
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7726 | F1-Macro: 0.6918
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7764 | F1-Macro: 0.7000
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7736 | F1-Macro: 0.6851
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação WORD2VEC (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7774 | F1-Macro: 0.6970
+Resultados salvos em: results/mpqa/word2vec/knn/experiment_log.csv
+
+=== Média Final: 0.7753 (+/- 0.0053) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: KNN
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'manhattan', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7031 | F1-Macro: 0.5940
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7210 | F1-Macro: 0.6106
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7286 | F1-Macro: 0.6388
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 7}
+Treinando modelo final...
+Acurácia: 0.7238 | F1-Macro: 0.6348
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7512 | F1-Macro: 0.6527
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'manhattan', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7057 | F1-Macro: 0.5883
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'manhattan', 'n_neighbors': 5}
+Treinando modelo final...
+Acurácia: 0.7302 | F1-Macro: 0.6366
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7245 | F1-Macro: 0.6260
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'manhattan', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7104 | F1-Macro: 0.5896
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'metric': 'euclidean', 'n_neighbors': 11}
+Treinando modelo final...
+Acurácia: 0.7462 | F1-Macro: 0.6532
+Resultados salvos em: results/mpqa/fasttext/knn/experiment_log.csv
+
+=== Média Final: 0.7245 (+/- 0.0150) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: SVM
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6861 | F1-Macro: 0.4069
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6909 | F1-Macro: 0.4201
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6880 | F1-Macro: 0.4105
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6899 | F1-Macro: 0.4169
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6852 | F1-Macro: 0.4066
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6906 | F1-Macro: 0.4172
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6868 | F1-Macro: 0.4100
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6887 | F1-Macro: 0.4136
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 1, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6887 | F1-Macro: 0.4107
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'C': 10, 'kernel': 'rbf'}
+Treinando modelo final...
+Acurácia: 0.6887 | F1-Macro: 0.4136
+Resultados salvos em: results/mpqa/fasttext/svm/experiment_log.csv
+
+=== Média Final: 0.6884 (+/- 0.0018) ===
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: DT
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7615 | F1-Macro: 0.6765
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7370 | F1-Macro: 0.6620
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 3 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7399 | F1-Macro: 0.6379
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 4 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7540 | F1-Macro: 0.6746
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 5 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': 20}
+Treinando modelo final...
+Acurácia: 0.7446 | F1-Macro: 0.7008
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 6 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7349 | F1-Macro: 0.6287
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 7 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7406 | F1-Macro: 0.6345
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 8 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'entropy', 'max_depth': 20}
+Treinando modelo final...
+Acurácia: 0.7500 | F1-Macro: 0.7026
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 9 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7358 | F1-Macro: 0.6478
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+--- Fold 10 ---
+Gerando representação FASTTEXT (fit_transform)...
+Otimizando parâmetros...
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7472 | F1-Macro: 0.6493
+Resultados salvos em: results/mpqa/fasttext/dt/experiment_log.csv
+
+=== Média Final: 0.7446 (+/- 0.0082) ===
+Device set to use cpu
+Device set to use cpu
+
+=== Iniciando orquestração do pipeline ===
+Dataset: data/MPQA.csv | Modelo: DT
+Executando Pré-processamento...
+
+--- Fold 1 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na CPU...
+Extraindo embeddings com google-bert/bert-base-uncased na CPU...
+Otimizando parâmetros...
+Device set to use cpu
+Melhores parâmetros: {'criterion': 'gini', 'max_depth': 10}
+Treinando modelo final...
+Acurácia: 0.7983 | F1-Macro: 0.7627
+Resultados salvos em: results/mpqa/bert_static/dt/experiment_log.csv
+
+--- Fold 2 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Extraindo embeddings com google-bert/bert-base-uncased na CPU...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 3 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 4 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 5 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 6 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 7 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 8 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 9 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+--- Fold 10 ---
+Gerando representação BERT_STATIC (fit_transform)...
+Erro na vetorização: Could not find a suitable TLS CA certificate bundle, invalid path: /home/mateus/treinamento/venv/lib/python3.12/site-packages/certifi/cacert.pem
+
+=== Média Final: 0.7983 (+/- 0.0000) ===
+./execute.sh: line 12: /home/mateus/treinamento/venv/bin/python3: No such file or directory
+./execute.sh: line 12: /home/mateus/treinamento/venv/bin/python3: No such file or directory
+./execute.sh: line 12: /home/mateus/treinamento/venv/bin/python3: No such file or directory

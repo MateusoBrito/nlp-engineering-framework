@@ -50,7 +50,6 @@ class TextPreprocessor:
                     try:
                         nltk.data.find(f'taggers/{resource}')
                     except LookupError:
-                        # print(f"Baixando {resource}...") 
                         nltk.download(resource, quiet=True)
 
     def _load_custom_stopwords(self, filepath):

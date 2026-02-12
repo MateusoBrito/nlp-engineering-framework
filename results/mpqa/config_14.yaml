@@ -1,0 +1,12 @@
+preprocessing:
+  input_path: "data/MPQA.csv"
+  output_path: "data/processed/mpqa.csv"
+  text_col: "texts"
+  output_col: "clean_text"
+
+training:
+  label_col: "scores"
+  model: google-bert/bert-base-uncased
+  validation: "stratified_kfold"
+  n_splits: 5
+  output_dir: "results/mpqa/bert/"

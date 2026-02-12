@@ -1,0 +1,3 @@
+dataset,model,representation,fold,params,accuracy,f1_macro,f1_weighted
+SMSSpamCollection.csv,google-bert/bert-base-uncased,fine-tuning,1,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.9761694616063548,0.9491347875752603,0.9759403541993116
+SMSSpamCollection.csv,google-bert/bert-base-uncased,fine-tuning,2,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.9867608120035305,0.9724925667615683,0.9868132687875082

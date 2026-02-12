@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+SMSSpamCollection.csv,dt,fasttext,1,"{'max_depth': 20, 'min_samples_split': 5}",0.8810572687224669,0.7291528569534668,0.881950824085814
+SMSSpamCollection.csv,dt,fasttext,2,"{'max_depth': 20, 'min_samples_split': 5}",0.8634361233480177,0.7064614357819213,0.8624904927000291
+SMSSpamCollection.csv,dt,fasttext,3,"{'max_depth': 20, 'min_samples_split': 2}",0.8678414096916299,0.7271634615384616,0.879924178244663
+SMSSpamCollection.csv,dt,fasttext,4,"{'max_depth': 20, 'min_samples_split': 5}",0.8898678414096917,0.7632753514370334,0.8860548146032863
+SMSSpamCollection.csv,dt,fasttext,5,"{'max_depth': None, 'min_samples_split': 5}",0.8414096916299559,0.7093883357041252,0.8448612303469711
+SMSSpamCollection.csv,dt,fasttext,6,"{'max_depth': None, 'min_samples_split': 5}",0.8634361233480177,0.6793347003873319,0.8687879088992002
+SMSSpamCollection.csv,dt,fasttext,7,"{'max_depth': None, 'min_samples_split': 5}",0.8230088495575221,0.6261373035566584,0.8182071045331109
+SMSSpamCollection.csv,dt,fasttext,8,"{'max_depth': None, 'min_samples_split': 5}",0.8584070796460177,0.735672514619883,0.8568131242560679
+SMSSpamCollection.csv,dt,fasttext,9,"{'max_depth': 10, 'min_samples_split': 2}",0.8008849557522124,0.6403183023872678,0.8019483110725101
+SMSSpamCollection.csv,dt,fasttext,10,"{'max_depth': None, 'min_samples_split': 5}",0.8407079646017699,0.6884191176470589,0.8484187922956794

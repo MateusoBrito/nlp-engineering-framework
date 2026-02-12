@@ -1,0 +1,16 @@
+preprocessing:
+  input_path: "data/MPQA.csv"
+  output_path: "data/processed/mpqa.csv"
+  text_col: "texts"
+  output_col: "clean_text"
+
+embeddings:
+  representation: "bert_static"
+  output_dir: "data/embeddings/mpqa_embeddings.csv"
+
+training:
+  label_col: "scores"
+  model: dt
+  validation: "stratified_kfold"
+  n_splits: 10
+  output_dir: "results/mpqa/bert_static/dt/"

@@ -73,6 +73,9 @@ def save_results(metrics, experiment_info, filepath):
 
     df = pd.DataFrame([data])
 
+    directory = os.path.dirname(filepath)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
     file_exists = os.path.isfile(filepath)
     df.to_csv(filepath, mode='a', header=not file_exists, index=False)
     print(f"Resultados salvos em: {filepath}")

@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,knn,word2vec,1,"{'metric': 'euclidean', 'n_neighbors': 5}",0.7709707822808671,0.6901005701015798,0.7496341764844869
+MPQA.csv,knn,word2vec,2,"{'metric': 'euclidean', 'n_neighbors': 5}",0.765315739868049,0.6872840518879146,0.7460286622729592
+MPQA.csv,knn,word2vec,3,"{'metric': 'manhattan', 'n_neighbors': 7}",0.7775683317624882,0.7001963601532567,0.7574717157600905
+MPQA.csv,knn,word2vec,4,"{'metric': 'euclidean', 'n_neighbors': 5}",0.7747408105560791,0.7005928422066813,0.7563442502269672
+MPQA.csv,knn,word2vec,5,"{'metric': 'euclidean', 'n_neighbors': 5}",0.7775683317624882,0.7047189124425702,0.75959788676896
+MPQA.csv,knn,word2vec,6,"{'metric': 'manhattan', 'n_neighbors': 7}",0.7867924528301887,0.709023243159204,0.7655052604019994
+MPQA.csv,knn,word2vec,7,"{'metric': 'euclidean', 'n_neighbors': 5}",0.7726415094339623,0.691753011459413,0.7510414501221581
+MPQA.csv,knn,word2vec,8,"{'metric': 'euclidean', 'n_neighbors': 5}",0.7764150943396226,0.6999910434393193,0.7568448233614141
+MPQA.csv,knn,word2vec,9,"{'metric': 'euclidean', 'n_neighbors': 5}",0.7735849056603774,0.6850534072170309,0.7477500911680128
+MPQA.csv,knn,word2vec,10,"{'metric': 'euclidean', 'n_neighbors': 5}",0.7773584905660378,0.6969535448294576,0.7555637433700416

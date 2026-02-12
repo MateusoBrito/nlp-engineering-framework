@@ -17,3 +17,7 @@ fasttext:
   workers: 4
   sg: 1
   epochs: 25
+
+bert_static:
+  model_name: "google-bert/bert-base-uncased"
+  batch_size: 32

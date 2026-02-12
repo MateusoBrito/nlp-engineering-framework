@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,dt,tfidf,1,"{'criterion': 'entropy', 'max_depth': None}",0.8152686145146089,0.7727356181150551,0.8097087457042097
+MPQA.csv,dt,tfidf,2,"{'criterion': 'entropy', 'max_depth': None}",0.8105560791705938,0.7647935308046678,0.8038090367833097
+MPQA.csv,dt,tfidf,3,"{'criterion': 'entropy', 'max_depth': None}",0.8180961357210179,0.7842953015892411,0.8164060940144291
+MPQA.csv,dt,tfidf,4,"{'criterion': 'entropy', 'max_depth': None}",0.819038642789821,0.7828767298493335,0.8160321096123208
+MPQA.csv,dt,tfidf,5,"{'criterion': 'entropy', 'max_depth': None}",0.8114985862393967,0.7734106712682168,0.8081713660809948
+MPQA.csv,dt,tfidf,6,"{'criterion': 'entropy', 'max_depth': None}",0.8122641509433962,0.770315693424696,0.8071710711122074
+MPQA.csv,dt,tfidf,7,"{'criterion': 'entropy', 'max_depth': None}",0.8169811320754717,0.7767451959613505,0.8123316461245066
+MPQA.csv,dt,tfidf,8,"{'criterion': 'entropy', 'max_depth': None}",0.7962264150943397,0.7574123989218329,0.7938463103290444
+MPQA.csv,dt,tfidf,9,"{'criterion': 'entropy', 'max_depth': None}",0.7933962264150943,0.7441631078660973,0.7863024222370668
+MPQA.csv,dt,tfidf,10,"{'criterion': 'entropy', 'max_depth': None}",0.8188679245283019,0.7851351351351351,0.8171009688934217

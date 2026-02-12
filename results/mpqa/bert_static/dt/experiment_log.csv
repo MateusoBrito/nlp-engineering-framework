@@ -1,0 +1,2 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,dt,bert_static,1,"{'criterion': 'gini', 'max_depth': 10}",0.7983034872761545,0.7626943979933111,0.7972638058372394

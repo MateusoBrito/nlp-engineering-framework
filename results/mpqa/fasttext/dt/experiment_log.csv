@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,dt,fasttext,1,"{'criterion': 'gini', 'max_depth': 10}",0.7615457115928369,0.6765029495592232,0.7388780636243185
+MPQA.csv,dt,fasttext,2,"{'criterion': 'gini', 'max_depth': 10}",0.7370405278039586,0.6619711072362088,0.721876504849273
+MPQA.csv,dt,fasttext,3,"{'criterion': 'entropy', 'max_depth': 10}",0.7398680490103676,0.6379161968069322,0.7101698185283722
+MPQA.csv,dt,fasttext,4,"{'criterion': 'gini', 'max_depth': 10}",0.7540056550424128,0.6746488553654195,0.7347722322199354
+MPQA.csv,dt,fasttext,5,"{'criterion': 'entropy', 'max_depth': 20}",0.7445805843543827,0.7007643994858906,0.7436092896159185
+MPQA.csv,dt,fasttext,6,"{'criterion': 'gini', 'max_depth': 10}",0.7349056603773585,0.6286548869171473,0.7032365585876307
+MPQA.csv,dt,fasttext,7,"{'criterion': 'gini', 'max_depth': 10}",0.7405660377358491,0.6345097980212122,0.7084334116927103
+MPQA.csv,dt,fasttext,8,"{'criterion': 'entropy', 'max_depth': 20}",0.75,0.7026478001335915,0.7472014066272809
+MPQA.csv,dt,fasttext,9,"{'criterion': 'gini', 'max_depth': 10}",0.7358490566037735,0.6477987421383649,0.7139195443218227
+MPQA.csv,dt,fasttext,10,"{'criterion': 'gini', 'max_depth': 10}",0.7471698113207547,0.649283950617284,0.7188528301886792

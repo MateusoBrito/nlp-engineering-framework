@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,knn,fasttext,1,"{'metric': 'manhattan', 'n_neighbors': 11}",0.70311027332705,0.5940154587893166,0.673158787881236
+MPQA.csv,knn,fasttext,2,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7210179076343073,0.6105919930167043,0.6885741875873657
+MPQA.csv,knn,fasttext,3,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7285579641847314,0.6387572705348277,0.7064897407925056
+MPQA.csv,knn,fasttext,4,"{'metric': 'euclidean', 'n_neighbors': 7}",0.7238454288407163,0.6347590598546664,0.7022538852124179
+MPQA.csv,knn,fasttext,5,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7511781338360037,0.6526901559338174,0.7218932129730526
+MPQA.csv,knn,fasttext,6,"{'metric': 'manhattan', 'n_neighbors': 11}",0.7056603773584905,0.5882695669061954,0.6708164618885514
+MPQA.csv,knn,fasttext,7,"{'metric': 'manhattan', 'n_neighbors': 5}",0.730188679245283,0.6365667812735267,0.7058261035649004
+MPQA.csv,knn,fasttext,8,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7245283018867924,0.6260318196756172,0.6980935842345285
+MPQA.csv,knn,fasttext,9,"{'metric': 'manhattan', 'n_neighbors': 11}",0.710377358490566,0.5896213625902456,0.6732055127960326
+MPQA.csv,knn,fasttext,10,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7462264150943396,0.6531983133037136,0.720639450849559

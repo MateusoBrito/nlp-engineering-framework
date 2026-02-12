@@ -1,0 +1,12 @@
+preprocessing:
+  input_path: "data/SMSSpamCollection.csv"
+  output_path: "data/processed/smsspam.csv"
+  text_col: "message"
+  output_col: "clean_text"
+
+training:
+  label_col: "label"
+  model: google-bert/bert-base-uncased
+  validation: "stratified_kfold"
+  n_splits: 2
+  output_dir: "results/smsspam/bert/"

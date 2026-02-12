@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,dt,word2vec,1,"{'criterion': 'gini', 'max_depth': 10}",0.760603204524034,0.6539625064201335,0.7262029793292273
+MPQA.csv,dt,word2vec,2,"{'criterion': 'gini', 'max_depth': 10}",0.760603204524034,0.6639558082697392,0.7317278840262658
+MPQA.csv,dt,word2vec,3,"{'criterion': 'gini', 'max_depth': 20}",0.7926484448633365,0.7355529573839432,0.7817620841674685
+MPQA.csv,dt,word2vec,4,"{'criterion': 'entropy', 'max_depth': 10}",0.7474081055607917,0.6359888984474212,0.7113439669721368
+MPQA.csv,dt,word2vec,5,"{'criterion': 'entropy', 'max_depth': 10}",0.7464655984919887,0.6329715889874373,0.7093395919930422
+MPQA.csv,dt,word2vec,6,"{'criterion': 'entropy', 'max_depth': 10}",0.7443396226415094,0.6323660214365702,0.7085463518289904
+MPQA.csv,dt,word2vec,7,"{'criterion': 'gini', 'max_depth': 10}",0.7528301886792453,0.651287769206043,0.7219414107276068
+MPQA.csv,dt,word2vec,8,"{'criterion': 'gini', 'max_depth': 10}",0.75,0.6467870700679391,0.71847772646054
+MPQA.csv,dt,word2vec,9,"{'criterion': 'entropy', 'max_depth': 10}",0.7537735849056604,0.6652935305326195,0.7299083225334825
+MPQA.csv,dt,word2vec,10,"{'criterion': 'gini', 'max_depth': 10}",0.7518867924528302,0.6494528280296905,0.7206024228646112
