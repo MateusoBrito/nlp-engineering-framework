@@ -1,6 +1,6 @@
 source venv/bin/activate
 
-CONFIG_DIR="results/mpqa"
+CONFIG_DIR="results/movie_review"
 
 echo "Iniciando experimentos para dataset mpqa..."
 

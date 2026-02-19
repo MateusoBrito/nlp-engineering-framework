@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,svm,bert_static,1,"{'C': 10, 'kernel': 'rbf'}",0.8586239396795476,0.8309935434542519,0.8566917441393171
+MPQA.csv,svm,bert_static,2,"{'C': 10, 'kernel': 'rbf'}",0.8623939679547596,0.8363885626410025,0.8609184839653267
+MPQA.csv,svm,bert_static,3,"{'C': 10, 'kernel': 'rbf'}",0.8482563619227145,0.8160416116995213,0.8449913534541477
+MPQA.csv,svm,bert_static,4,"{'C': 10, 'kernel': 'rbf'}",0.8463713477851084,0.8194035009675018,0.8455162697152819
+MPQA.csv,svm,bert_static,5,"{'C': 10, 'kernel': 'rbf'}",0.8435438265786993,0.812278839348903,0.8409444281023191
+MPQA.csv,svm,bert_static,6,"{'C': 10, 'kernel': 'rbf'}",0.8509433962264151,0.8241133202549034,0.8499064850777577
+MPQA.csv,svm,bert_static,7,"{'C': 10, 'kernel': 'rbf'}",0.8433962264150944,0.8135669362084457,0.8415670718269508
+MPQA.csv,svm,bert_static,8,"{'C': 10, 'kernel': 'rbf'}",0.8349056603773585,0.8025669489622259,0.8325688304149597
+MPQA.csv,svm,bert_static,9,"{'C': 10, 'kernel': 'rbf'}",0.8490566037735849,0.8172878449015121,0.845894102890392
+MPQA.csv,svm,bert_static,10,"{'C': 10, 'kernel': 'rbf'}",0.8518867924528302,0.8235159998939526,0.8500844126902661

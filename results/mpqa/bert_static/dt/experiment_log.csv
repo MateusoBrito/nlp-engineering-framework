@@ -1,2 +1,11 @@
 dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
-MPQA.csv,dt,bert_static,1,"{'criterion': 'gini', 'max_depth': 10}",0.7983034872761545,0.7626943979933111,0.7972638058372394
+MPQA.csv,dt,bert_static,1,"{'criterion': 'gini', 'max_depth': 10}",0.7964184731385485,0.7600633197648123,0.7951860950580828
+MPQA.csv,dt,bert_static,2,"{'criterion': 'entropy', 'max_depth': 10}",0.7775683317624882,0.7430254515599344,0.7784563235414742
+MPQA.csv,dt,bert_static,3,"{'criterion': 'gini', 'max_depth': 10}",0.7983034872761545,0.7658503283503284,0.7986321268602135
+MPQA.csv,dt,bert_static,4,"{'criterion': 'entropy', 'max_depth': None}",0.7822808671065034,0.7498553271749149,0.7835541212922987
+MPQA.csv,dt,bert_static,5,"{'criterion': 'gini', 'max_depth': 10}",0.7822808671065034,0.747863551211503,0.782719863482715
+MPQA.csv,dt,bert_static,6,"{'criterion': 'gini', 'max_depth': 10}",0.7650943396226415,0.7225699645250296,0.7633523772692453
+MPQA.csv,dt,bert_static,7,"{'criterion': 'gini', 'max_depth': 10}",0.7905660377358491,0.7506738544474394,0.7881198189492956
+MPQA.csv,dt,bert_static,8,"{'criterion': 'gini', 'max_depth': 10}",0.7669811320754717,0.7276087687046591,0.7664926412147917
+MPQA.csv,dt,bert_static,9,"{'criterion': 'gini', 'max_depth': 10}",0.7971698113207547,0.7628983209372538,0.7967446067254258
+MPQA.csv,dt,bert_static,10,"{'criterion': 'entropy', 'max_depth': 10}",0.7952830188679245,0.757800004422398,0.7935751596965457

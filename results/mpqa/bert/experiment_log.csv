@@ -1,0 +1,6 @@
+dataset,model,representation,fold,params,accuracy,f1_macro,f1_weighted
+MPQA.csv,google-bert/bert-base-uncased,fine-tuning,1,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.8708156529938709,0.8529662088996387,0.8722165565898997
+MPQA.csv,google-bert/bert-base-uncased,fine-tuning,2,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.8557284299858557,0.8232673267326733,0.8517288221042756
+MPQA.csv,google-bert/bert-base-uncased,fine-tuning,3,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.8646864686468647,0.8458168369056632,0.8660851610266034
+MPQA.csv,google-bert/bert-base-uncased,fine-tuning,4,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.8613861386138614,0.8359627044238251,0.8601682495508657
+MPQA.csv,google-bert/bert-base-uncased,fine-tuning,5,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.8778877887788779,0.858790496527079,0.8782550443991047

@@ -102,7 +102,6 @@ class TextRepresenter:
         Extrai embeddings usando a biblioteca Transformers.
         """
         device = 0 if torch.cuda.is_available() else -1
-        device = -1
         model_name = self.params.get('model_name', 'bert-base-uncased')
         
         # Inicializa o pipeline de extração de features

@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+MPQA.csv,knn,bert_static,1,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7973609802073516,0.7370908089256469,0.7844289946370645
+MPQA.csv,knn,bert_static,2,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7907634307257304,0.7349147827026443,0.7806716832390126
+MPQA.csv,knn,bert_static,3,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7954759660697456,0.7382793095412667,0.7842903296115551
+MPQA.csv,knn,bert_static,4,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7935909519321395,0.7442571527628733,0.7862861619263898
+MPQA.csv,knn,bert_static,5,"{'metric': 'euclidean', 'n_neighbors': 11}",0.8086710650329878,0.7540506622543024,0.7974192620605786
+MPQA.csv,knn,bert_static,6,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7886792452830189,0.7312507074136956,0.7778967442953092
+MPQA.csv,knn,bert_static,7,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7990566037735849,0.7394498419596769,0.7862417378214824
+MPQA.csv,knn,bert_static,8,"{'metric': 'euclidean', 'n_neighbors': 11}",0.7867924528301887,0.7245119505418682,0.7736937757616134
+MPQA.csv,knn,bert_static,9,"{'metric': 'euclidean', 'n_neighbors': 11}",0.8028301886792453,0.7443428026740492,0.7902559774868066
+MPQA.csv,knn,bert_static,10,"{'metric': 'euclidean', 'n_neighbors': 11}",0.8009433962264151,0.7400605045610862,0.7872951846445188

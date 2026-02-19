@@ -1,12 +1,22 @@
-pandas
-numpy
-scikit-learn
-joblib
-nltk
-matplotlib
-seaborn
-gensim
-torch
-transformers
-sentence-transformers
-pyyaml
+# Processamento de Dados e Numérico
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning Clássico
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Processamento de Linguagem Natural (NLP)
+nltk>=3.8.0
+gensim>=4.3.0
+
+# Deep Learning e Transformers (Otimizado para CPU/Compatibilidade)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.1.0
+transformers>=4.35.0
+sentence-transformers>=2.2.0
+
+# Visualização e Utilidades
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pyyaml>=6.0.0

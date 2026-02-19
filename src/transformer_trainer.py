@@ -36,9 +36,7 @@ class Transformer(nn.Module):
 class TransformerTrainer:
     def __init__(self, model_name, num_labels, params):
 
-        #self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.device = torch.device("cpu")
-        print("Aviso: Forçando uso de CPU devido a incompatibilidade da GTX 1070 (sm_61).")
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model = Transformer(model_name, num_labels).to(self.device)
 
         self.lr = float(params.get('learning_rate', 2e-5))

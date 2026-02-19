@@ -1,0 +1,16 @@
+preprocessing:
+  input_path: "data/Movie_Review.csv"
+  output_path: "data/processed/movie_review.csv"
+  text_col: "texts"
+  output_col: "clean_text"
+
+embeddings:
+  representation: "bert_static"
+  output_dir: "data/embeddings/movie_review_embeddings.csv"
+
+training:
+  label_col: "scores"
+  model: dt
+  validation: "stratified_kfold"
+  n_splits: 10
+  output_dir: "results/movie_review/bert_static/dt/"
