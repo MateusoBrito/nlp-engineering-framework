@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,svm,bert_static,1,"{'C': 1, 'kernel': 'rbf'}",0.7375820056232427,0.7373880145704119,0.7373813252237625
+Movie_Review.csv,svm,bert_static,2,"{'C': 0.1, 'kernel': 'linear'}",0.7373358348968105,0.7370683579985906,0.7370683579985905
+Movie_Review.csv,svm,bert_static,3,"{'C': 1, 'kernel': 'rbf'}",0.7166979362101313,0.7158567756877365,0.7158567756877365
+Movie_Review.csv,svm,bert_static,4,"{'C': 10, 'kernel': 'rbf'}",0.7326454033771107,0.7324737788023709,0.7324737788023709
+Movie_Review.csv,svm,bert_static,5,"{'C': 1, 'kernel': 'rbf'}",0.7570356472795498,0.7567100063004754,0.7567100063004754
+Movie_Review.csv,svm,bert_static,6,"{'C': 10, 'kernel': 'rbf'}",0.7476547842401501,0.7474411988779235,0.7474411988779236
+Movie_Review.csv,svm,bert_static,7,"{'C': 10, 'kernel': 'rbf'}",0.7288930581613509,0.7288737321511078,0.7288737321511077
+Movie_Review.csv,svm,bert_static,8,"{'C': 10, 'kernel': 'rbf'}",0.7101313320825516,0.7099963286662494,0.7099963286662493
+Movie_Review.csv,svm,bert_static,9,"{'C': 10, 'kernel': 'rbf'}",0.7523452157598499,0.7522196199968303,0.7522196199968304
+Movie_Review.csv,svm,bert_static,10,"{'C': 10, 'kernel': 'rbf'}",0.7176360225140713,0.717504514331848,0.717504514331848

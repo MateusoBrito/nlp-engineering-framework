@@ -12,8 +12,13 @@ class ResultsComparator:
         if not os.path.exists(self.base_dir):
             raise FileNotFoundError(f"Diretório de resultados não encontrado: {self.base_dir}")
         
-    def get_model_data(self, dataset_name, representation, model_name):
-        file_path = os.path.join(self.base_dir, representation, model_name, 'experiment_log.csv')
+    def get_model_data(self, dataset_name, representation, model_name=None):
+        # AJUSTE: Se model_name for None ou vazio, busca direto na pasta da representação
+        # Isso permite ler results/dataset/bert/experiment_log.csv
+        if model_name:
+            file_path = os.path.join(self.base_dir, representation, model_name, 'experiment_log.csv')
+        else:
+            file_path = os.path.join(self.base_dir, representation, 'experiment_log.csv')
         
         if not os.path.exists(file_path):
             return None
@@ -23,6 +28,7 @@ class ResultsComparator:
         except Exception:
             return None
         
+        # Filtra pelo nome do dataset (ex: 'mpqa' ou 'SMSSpamCollection.csv')
         subset = df[df['dataset'] == dataset_name]
         if subset.empty: return None
 

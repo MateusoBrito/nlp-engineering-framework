@@ -1,0 +1,37 @@
+=== RELATÓRIO ESTATÍSTICO: Modelos em BERT_STATIC ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.016667 (para 3 comparações)
+
+--- Métrica: ACCURACY ---
+KNN vs SVM:
+   Média KNN: 0.6683
+   Média SVM: 0.7338
+   P-Value: 1.7809e-07 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.6683
+   Média DT: 0.6210
+   P-Value: 1.6875e-07 -> SIGNIFICATIVO
+
+SVM vs DT:
+   Média SVM: 0.7338
+   Média DT: 0.6210
+   P-Value: 1.0084e-08 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+KNN vs SVM:
+   Média KNN: 0.6683
+   Média SVM: 0.7336
+   P-Value: 1.8946e-07 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.6683
+   Média DT: 0.6198
+   P-Value: 1.4407e-07 -> SIGNIFICATIVO
+
+SVM vs DT:
+   Média SVM: 0.7336
+   Média DT: 0.6198
+   P-Value: 1.2354e-08 -> SIGNIFICATIVO
+
+Fim do relatório.

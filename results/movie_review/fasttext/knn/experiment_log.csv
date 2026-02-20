@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,knn,fasttext,1,"{'metric': 'manhattan', 'n_neighbors': 11}",0.6457357075913777,0.6457329070339399,0.6457338405530858
+Movie_Review.csv,knn,fasttext,2,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6538461538461539,0.6538434122675556,0.6538434122675557
+Movie_Review.csv,knn,fasttext,3,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6303939962476548,0.6302365055217489,0.6302365055217489
+Movie_Review.csv,knn,fasttext,4,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6538461538461539,0.6538092912117652,0.6538092912117652
+Movie_Review.csv,knn,fasttext,5,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6388367729831145,0.6388110272601263,0.6388110272601263
+Movie_Review.csv,knn,fasttext,6,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6275797373358349,0.6275400775367772,0.6275400775367771
+Movie_Review.csv,knn,fasttext,7,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6726078799249531,0.6726052869414008,0.6726052869414008
+Movie_Review.csv,knn,fasttext,8,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6332082551594747,0.6332053501263258,0.6332053501263258
+Movie_Review.csv,knn,fasttext,9,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6322701688555347,0.6316426015056152,0.6316426015056151
+Movie_Review.csv,knn,fasttext,10,"{'metric': 'euclidean', 'n_neighbors': 11}",0.648217636022514,0.6480537969250599,0.6480537969250598

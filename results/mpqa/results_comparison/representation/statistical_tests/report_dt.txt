@@ -1,0 +1,67 @@
+=== RELATÓRIO ESTATÍSTICO: Representações para DT ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.008333 (para 6 comparações)
+
+--- Métrica: ACCURACY ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.8112
+   Média WORD2VEC: 0.7561
+   P-Value: 9.2102e-07 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.8112
+   Média FASTTEXT: 0.7446
+   P-Value: 1.3086e-08 -> SIGNIFICATIVO
+
+TFIDF vs BERT_STATIC:
+   Média TFIDF: 0.8112
+   Média BERT_STATIC: 0.7852
+   P-Value: 1.7032e-04 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.7561
+   Média FASTTEXT: 0.7446
+   P-Value: 6.3004e-02 -> Não Significativo
+
+WORD2VEC vs BERT_STATIC:
+   Média WORD2VEC: 0.7561
+   Média BERT_STATIC: 0.7852
+   P-Value: 5.7307e-05 -> SIGNIFICATIVO
+
+FASTTEXT vs BERT_STATIC:
+   Média FASTTEXT: 0.7446
+   Média BERT_STATIC: 0.7852
+   P-Value: 7.0520e-06 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+TFIDF vs WORD2VEC:
+   Média TFIDF: 0.8071
+   Média WORD2VEC: 0.7260
+   P-Value: 1.0178e-06 -> SIGNIFICATIVO
+
+TFIDF vs FASTTEXT:
+   Média TFIDF: 0.8071
+   Média FASTTEXT: 0.7241
+   P-Value: 3.4731e-07 -> SIGNIFICATIVO
+
+TFIDF vs BERT_STATIC:
+   Média TFIDF: 0.8071
+   Média BERT_STATIC: 0.7847
+   P-Value: 6.8771e-04 -> SIGNIFICATIVO
+
+WORD2VEC vs FASTTEXT:
+   Média WORD2VEC: 0.7260
+   Média FASTTEXT: 0.7241
+   P-Value: 8.4891e-01 -> Não Significativo
+
+WORD2VEC vs BERT_STATIC:
+   Média WORD2VEC: 0.7260
+   Média BERT_STATIC: 0.7847
+   P-Value: 2.5233e-06 -> SIGNIFICATIVO
+
+FASTTEXT vs BERT_STATIC:
+   Média FASTTEXT: 0.7241
+   Média BERT_STATIC: 0.7847
+   P-Value: 9.4065e-06 -> SIGNIFICATIVO
+
+Fim do relatório.

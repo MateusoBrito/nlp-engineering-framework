@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,knn,word2vec,1,"{'metric': 'euclidean', 'n_neighbors': 5}",0.5445173383317713,0.5432137697755541,0.5432366393993473
+Movie_Review.csv,knn,word2vec,2,"{'metric': 'euclidean', 'n_neighbors': 11}",0.5337711069418386,0.5327839288155174,0.5327839288155173
+Movie_Review.csv,knn,word2vec,3,"{'metric': 'manhattan', 'n_neighbors': 11}",0.5469043151969981,0.5457815158965619,0.5457815158965619
+Movie_Review.csv,knn,word2vec,4,"{'metric': 'manhattan', 'n_neighbors': 11}",0.5337711069418386,0.5331462283063177,0.5331462283063177
+Movie_Review.csv,knn,word2vec,5,"{'metric': 'manhattan', 'n_neighbors': 7}",0.5422138836772983,0.540758998407424,0.540758998407424
+Movie_Review.csv,knn,word2vec,6,"{'metric': 'euclidean', 'n_neighbors': 7}",0.5412757973733584,0.5406609771464574,0.5406609771464573
+Movie_Review.csv,knn,word2vec,7,"{'metric': 'euclidean', 'n_neighbors': 7}",0.5365853658536586,0.535995742401173,0.535995742401173
+Movie_Review.csv,knn,word2vec,8,"{'metric': 'manhattan', 'n_neighbors': 11}",0.5469043151969981,0.5457815158965619,0.5457815158965619
+Movie_Review.csv,knn,word2vec,9,"{'metric': 'manhattan', 'n_neighbors': 7}",0.5619136960600375,0.5607443897678612,0.5607443897678613
+Movie_Review.csv,knn,word2vec,10,"{'metric': 'manhattan', 'n_neighbors': 11}",0.5525328330206379,0.550862930173275,0.550862930173275

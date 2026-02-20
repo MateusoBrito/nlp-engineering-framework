@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,dt,word2vec,1,"{'criterion': 'entropy', 'max_depth': 5}",0.555763823805061,0.5491742196803845,0.5492253018829014
+Movie_Review.csv,dt,word2vec,2,"{'criterion': 'gini', 'max_depth': 5}",0.5590994371482176,0.5590932291391661,0.5590932291391661
+Movie_Review.csv,dt,word2vec,3,"{'criterion': 'gini', 'max_depth': 5}",0.5637898686679175,0.5635498194554873,0.5635498194554872
+Movie_Review.csv,dt,word2vec,4,"{'criterion': 'entropy', 'max_depth': 5}",0.5281425891181989,0.5265924150322037,0.5265924150322037
+Movie_Review.csv,dt,word2vec,5,"{'criterion': 'entropy', 'max_depth': 5}",0.5525328330206379,0.5525135372746979,0.5525135372746979
+Movie_Review.csv,dt,word2vec,6,"{'criterion': 'gini', 'max_depth': 5}",0.5609756097560976,0.5609617009293157,0.5609617009293157
+Movie_Review.csv,dt,word2vec,7,"{'criterion': 'entropy', 'max_depth': 5}",0.5525328330206379,0.5522865889898224,0.5522865889898225
+Movie_Review.csv,dt,word2vec,8,"{'criterion': 'entropy', 'max_depth': 5}",0.550656660412758,0.5505423535759775,0.5505423535759775
+Movie_Review.csv,dt,word2vec,9,"{'criterion': 'gini', 'max_depth': 5}",0.5159474671669794,0.5137291234224327,0.5137291234224326
+Movie_Review.csv,dt,word2vec,10,"{'criterion': 'gini', 'max_depth': 5}",0.5469043151969981,0.5426343574533177,0.5426343574533176

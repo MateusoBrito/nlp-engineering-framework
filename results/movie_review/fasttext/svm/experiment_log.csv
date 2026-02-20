@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,svm,fasttext,1,"{'C': 1, 'kernel': 'rbf'}",0.7029053420805998,0.7027006121973622,0.7026933004158181
+Movie_Review.csv,svm,fasttext,2,"{'C': 1, 'kernel': 'rbf'}",0.7120075046904315,0.7116967116570687,0.7116967116570686
+Movie_Review.csv,svm,fasttext,3,"{'C': 1, 'kernel': 'rbf'}",0.6913696060037523,0.6908666054947215,0.6908666054947215
+Movie_Review.csv,svm,fasttext,4,"{'C': 1, 'kernel': 'rbf'}",0.7363977485928705,0.7362526865956815,0.7362526865956815
+Movie_Review.csv,svm,fasttext,5,"{'C': 1, 'kernel': 'rbf'}",0.7176360225140713,0.7174268944047415,0.7174268944047415
+Movie_Review.csv,svm,fasttext,6,"{'C': 10, 'kernel': 'rbf'}",0.7213883677298312,0.7213174927182991,0.7213174927182991
+Movie_Review.csv,svm,fasttext,7,"{'C': 1, 'kernel': 'rbf'}",0.7082551594746717,0.7080390835876232,0.7080390835876232
+Movie_Review.csv,svm,fasttext,8,"{'C': 1, 'kernel': 'rbf'}",0.6782363977485929,0.6780593291897465,0.6780593291897464
+Movie_Review.csv,svm,fasttext,9,"{'C': 1, 'kernel': 'rbf'}",0.7073170731707317,0.7073129521094039,0.7073129521094039
+Movie_Review.csv,svm,fasttext,10,"{'C': 1, 'kernel': 'rbf'}",0.725140712945591,0.7249080716402662,0.7249080716402662

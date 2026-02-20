@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,knn,bert_static,1,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6560449859418932,0.6559857611353139,0.6559815307919868
+Movie_Review.csv,knn,bert_static,2,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6791744840525328,0.6791699667353082,0.679169966735308
+Movie_Review.csv,knn,bert_static,3,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6669793621013134,0.6667655841222514,0.6667655841222514
+Movie_Review.csv,knn,bert_static,4,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6716697936210131,0.6716408978258421,0.671640897825842
+Movie_Review.csv,knn,bert_static,5,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6716697936210131,0.6716651706355492,0.6716651706355492
+Movie_Review.csv,knn,bert_static,6,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6782363977485929,0.6782293187460344,0.6782293187460343
+Movie_Review.csv,knn,bert_static,7,"{'metric': 'euclidean', 'n_neighbors': 11}",0.651031894934334,0.6507171470547821,0.6507171470547821
+Movie_Review.csv,knn,bert_static,8,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6660412757973734,0.6659660241175953,0.6659660241175953
+Movie_Review.csv,knn,bert_static,9,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6763602251407129,0.6763576618761699,0.6763576618761697
+Movie_Review.csv,knn,bert_static,10,"{'metric': 'euclidean', 'n_neighbors': 11}",0.6660412757973734,0.6660365735607301,0.6660365735607301

@@ -1,0 +1,37 @@
+=== RELATÓRIO ESTATÍSTICO: Modelos em FASTTEXT ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.016667 (para 3 comparações)
+
+--- Métrica: ACCURACY ---
+KNN vs SVM:
+   Média KNN: 0.7245
+   Média SVM: 0.6884
+   P-Value: 7.2306e-05 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.7245
+   Média DT: 0.7446
+   P-Value: 6.8288e-03 -> SIGNIFICATIVO
+
+SVM vs DT:
+   Média SVM: 0.6884
+   Média DT: 0.7446
+   P-Value: 1.7052e-08 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+KNN vs SVM:
+   Média KNN: 0.6961
+   Média SVM: 0.5637
+   P-Value: 6.3003e-09 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.6961
+   Média DT: 0.7241
+   P-Value: 2.8025e-03 -> SIGNIFICATIVO
+
+SVM vs DT:
+   Média SVM: 0.5637
+   Média DT: 0.7241
+   P-Value: 2.7244e-10 -> SIGNIFICATIVO
+
+Fim do relatório.

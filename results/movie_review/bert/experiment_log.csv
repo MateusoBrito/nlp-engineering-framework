@@ -1,0 +1,6 @@
+dataset,model,representation,fold,params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,google-bert/bert-base-uncased,fine-tuning,1,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.7501172058134083,0.7437588366191527,0.7437777603369927
+Movie_Review.csv,google-bert/bert-base-uncased,fine-tuning,2,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.8030018761726079,0.8028457289406195,0.8028457289406195
+Movie_Review.csv,google-bert/bert-base-uncased,fine-tuning,3,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.7931519699812383,0.7927049933382911,0.7927049933382911
+Movie_Review.csv,google-bert/bert-base-uncased,fine-tuning,4,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.7833020637898687,0.7816038739889315,0.7816038739889314
+Movie_Review.csv,google-bert/bert-base-uncased,fine-tuning,5,"{'learning_rate': '3e-5', 'num_train_epochs': 4, 'per_device_train_batch_size': 8}",0.7940900562851783,0.793468064659562,0.793468064659562

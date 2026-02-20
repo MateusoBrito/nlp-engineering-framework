@@ -1,11 +1,11 @@
 import os
 from src.comparison import ResultsComparator
 
-BASE_DIR = "results"
-COMP_DIR = "results_comparison" 
-DATASET_NAME = "SMSSpamCollection.csv" 
+BASE_DIR = "results/movie_review"
+COMP_DIR = "results/movie_review/results_comparison" 
+DATASET_NAME = "Movie_Review.csv" 
 
-REPRESENTATIONS = ['tfidf', 'word2vec', 'fasttext']
+REPRESENTATIONS = ['tfidf', 'word2vec', 'fasttext', 'bert_static']
 MODELS = ['knn', 'svm', 'dt']
 
 def main():

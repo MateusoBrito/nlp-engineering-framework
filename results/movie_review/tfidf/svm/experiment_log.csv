@@ -1,0 +1,11 @@
+dataset,model,representation,fold,best_params,accuracy,f1_macro,f1_weighted
+Movie_Review.csv,svm,tfidf,1,"{'C': 1, 'kernel': 'rbf'}",0.7488284910965324,0.7487788421666679,0.7487821520953255
+Movie_Review.csv,svm,tfidf,2,"{'C': 1, 'kernel': 'rbf'}",0.7579737335834896,0.757972881642308,0.757972881642308
+Movie_Review.csv,svm,tfidf,3,"{'C': 1, 'kernel': 'rbf'}",0.7373358348968105,0.7373025456516917,0.7373025456516917
+Movie_Review.csv,svm,tfidf,4,"{'C': 10, 'kernel': 'rbf'}",0.7317073170731707,0.7316988172345817,0.7316988172345817
+Movie_Review.csv,svm,tfidf,5,"{'C': 1, 'kernel': 'rbf'}",0.7485928705440901,0.7485849056603773,0.7485849056603773
+Movie_Review.csv,svm,tfidf,6,"{'C': 10, 'kernel': 'rbf'}",0.7485928705440901,0.7485707446209304,0.7485707446209305
+Movie_Review.csv,svm,tfidf,7,"{'C': 1, 'kernel': 'rbf'}",0.775797373358349,0.7757103304384572,0.775710330438457
+Movie_Review.csv,svm,tfidf,8,"{'C': 1, 'kernel': 'rbf'}",0.7317073170731707,0.7315476190476191,0.731547619047619
+Movie_Review.csv,svm,tfidf,9,"{'C': 1, 'kernel': 'rbf'}",0.7373358348968105,0.7373127182606737,0.7373127182606737
+Movie_Review.csv,svm,tfidf,10,"{'C': 1, 'kernel': 'rbf'}",0.7823639774859287,0.7823632113992847,0.7823632113992847

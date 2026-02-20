@@ -1,0 +1,37 @@
+=== RELATÓRIO ESTATÍSTICO: Modelos em WORD2VEC ===
+Alpha Original: 0.05
+Correção Bonferroni: 0.016667 (para 3 comparações)
+
+--- Métrica: ACCURACY ---
+KNN vs SVM:
+   Média KNN: 0.5440
+   Média SVM: 0.5998
+   P-Value: 2.6438e-06 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.5440
+   Média DT: 0.5486
+   P-Value: 4.9628e-01 -> Não Significativo
+
+SVM vs DT:
+   Média SVM: 0.5998
+   Média DT: 0.5486
+   P-Value: 4.1313e-05 -> SIGNIFICATIVO
+
+--- Métrica: F1 ---
+KNN vs SVM:
+   Média KNN: 0.5430
+   Média SVM: 0.5957
+   P-Value: 6.7219e-06 -> SIGNIFICATIVO
+
+KNN vs DT:
+   Média KNN: 0.5430
+   Média DT: 0.5471
+   P-Value: 5.5179e-01 -> Não Significativo
+
+SVM vs DT:
+   Média SVM: 0.5957
+   Média DT: 0.5471
+   P-Value: 9.7680e-05 -> SIGNIFICATIVO
+
+Fim do relatório.
